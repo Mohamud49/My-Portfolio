@@ -390,7 +390,7 @@ body.dark-mode .cta-button:hover {
 
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 15%;
+  animation-range: entry 0% cover 20%;
 }
 
 /*LOADER*/
@@ -558,7 +558,7 @@ body.dark-mode .about-content-cta-button:hover {
 
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 15%;
+  animation-range: entry 0% cover 20%;
 }
 
 /*LOADER*/
@@ -678,7 +678,7 @@ body.dark-mode .progress {
 
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 15%;
+  animation-range: entry 0% cover 20%;
 }
 
 /*LOADER*/
@@ -827,7 +827,7 @@ body.dark-mode .service-button:hover {
 
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 15%;
+  animation-range: entry 0% cover 20%;
 }
 
 /*LOADER*/
