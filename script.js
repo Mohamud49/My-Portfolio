@@ -14,6 +14,19 @@ window.addEventListener("load", () => {
   })
 })
 
+// ANIMATION WHEN SCHROLLING DOWN
+const observers = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if(entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else{
+      entry.target.classList.remove('show');
+    }
+  });
+})
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observers.observe(el));
 
 
 menuIcon.addEventListener('click', () => {
