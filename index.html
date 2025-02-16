@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- EmailJS SDK 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      // Initialize EmailJS with your User ID
+      (function() {
+        emailjs.init("nreZKtnLNZNJtiJO7"); // Replace with your EmailJS User ID
+      })();
+    </script>-->
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#hero"><img src="./Img/logo.jpg" alt="Mohamud Mohamed"></a>
+        <p><a href="#hero">Moha<span>mud </span>Moha<span>med</span></p></a> 
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="dark-mode-toggle">
+        <span class="mode-icon">🌙</span>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1 class=" hero-title">Welcome to My Portfolio</h1>
+        <p class="hero-subtitle">I am a <span id="changing-text">Web Developer</span></p>
+        <a href="#about" class="cta-button">Learn More</a>
+      </div>
+    </section>
+      
+       <!-- About Section -->
+       <section id="about">
+        <div class="about-content">
+          <h1>About Me</h1>
+          <p>
+            <p>
+              Hi! I’m Mohamud Mohamed, a Front-End Developer based in Gaalkacyo City. 
+              I started my web development journey 2 years ago after realizing my passion for technology and design. 
+              Initially, I began with HTML and CSS, and since then, 
+              I've expanded my knowledge to include JavaScript and modern frameworks like React. 
+              My goal is to build websites that not only look stunning but also provide exceptional user experiences.
+            </p> </p><br>
+            <span id="more-text" style="display: none;">
+              <p>
+                I specialize in creating responsive websites that work seamlessly across devices, 
+                ensuring users can access content on any screen size. I love solving challenges through coding, 
+                whether it’s optimizing load times, creating intuitive interfaces, or implementing interactive features that engage users.
+              </p><br>        
+    
+              <p>
+                Outside of coding, I enjoy playing football and traveling. I find inspiration in nature and the people I meet along the way. 
+                I believe that a healthy balance of work and personal life is essential for maintaining creativity and motivation.
+              </p><br>
+              
+              <p>
+                If you're interested in collaborating on a project, or if you'd just like to chat about technology, 
+                feel free to get in touch. I’m always excited to connect with like-minded individuals!
+              </p>
+            
+            </span>
+            <span id="read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <span id="read-less">Read Less <i class="fa fa-angle-left" aria-hidden="true"></i></span>
+          </p>
+          <a id="cv-download" href="./Img/Coming Soon.pdf" target="_blank">
+            <button>View My CV</button>
+          </a>
+        </div>
+        <div class="about-image">
+          <img src="./Img/Addis.jpg" alt="Your Name">
+        </div>
+      </section>
+
+   <!-- Skills Section -->
+    <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="skills-content">
+      <h1>My Skills</h1>
+      <p class="skills-description">Here are some of the key skills I've developed over the years. I continuously strive to improve and learn new technologies.</p>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-code"></i>
+          <span>Web Development</span>
+          <span>95%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="95"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-pencil-ruler"></i>
+          <span>UI/UX Design</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="90"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-video"></i>
+          <span>Video Editing</span>
+          <span>85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="85"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-palette"></i>
+          <span>Graphic Design</span>
+          <span>80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="80"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-mobile-alt"></i>
+          <span>Mobile App Development</span>
+          <span>75%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="75"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fas fa-chart-line"></i>
+          <span>Digital Marketing</span>
+          <span>70%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-progress="70"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="services-content">
+      <h1>My Services</h1>
+      <p class="services-description">I offer a range of services to help you achieve your goals. Here are some of the key services I provide.</p>
+      <div class="service-cards">
+        <div class="service-card">
+          <i class="fas fa-code"></i>
+          <h2>Web Development</h2>
+          <p>I build responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and frameworks like React.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-pencil-ruler"></i>
+          <h2>UI/UX Design</h2>
+          <p>I create intuitive and visually appealing user interfaces, focusing on user experience and usability.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-video"></i>
+          <h2>Video Editing</h2>
+          <p>I edit and produce high-quality videos using tools like Adobe Premiere Pro and Final Cut Pro.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-palette"></i>
+          <h2>Graphic Design</h2>
+          <p>I design logos, posters, and other visual content using tools like Adobe Photoshop and Illustrator.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h2>Mobile App Development</h2>
+          <p>I develop cross-platform mobile applications using frameworks like React Native and Flutter.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h2>Digital Marketing</h2>
+          <p>I plan and execute digital marketing strategies, including SEO, social media, and email campaigns.</p>
+          <a href="./soon.html" class="service-button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <h1>Contact Me</h1>
+      <p class="contact-description">Have a question or want to work together? Feel free to reach out!</p>
+      <form name="submit-to-google-sheet" class="contact-form" id="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+      <span id="mssg"></span>
+      <!-- <p id="form-status" class="form-status"></p>-->
+    </div>
+  </section>
+
+  <!-- Popup Modal -->
+  <div class="popup-modal" id="popup-modal">
+    <div class="popup-content">
+      <span class="close-button" id="close-button">&times;</span>
+      <div class="popup-image">
+        <img src="./Img/right.png" alt="Popup Image">
+      </div>
+      <div class="popup-text">
+        <p>Thank you for contacting us! We'll get back to you soon.</p>
+        <button class="ok-button" id="ok-button">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const scriptsURL = 'https://script.google.com/macros/s/AKfycby8H63S8v7wZz7y1rkwvmoap_J9PBack7GhcJa2PmviDDn88iaFkbW96SKzNNH1h2GLXw/exec'
+    const forrm = document.forms['submit-to-google-sheet']
+    const mssg = document.getElementById("mssg")
+  
+    forrm.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptsURL, { method: 'POST', body: new FormData(forrm)})
+        .then(response => {
+          mssg.innerHTML = "Thank You For Contacting..."
+          setTimeout(function(){mssg.innerHTML = ""},5000)
+
+          forrm.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+  <!--
+  <script>
+    // Handle form submission
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Send email using EmailJS
+      emailjs.sendForm("service_al18nxa", "template_cagrugq", this)
+        .then(function(response) {
+          console.log("Email sent successfully!", response);
+          document.getElementById("form-status").textContent = "Message sent successfully!";
+
+          setTimeout(function(){document.getElementById("form-status").textContent = ""},5000)
+
+          form.reset()
+
+          document.getElementById("form-status").style.color = "green";
+          document.getElementById("contact-form").reset(); // Clear the form
+        }, function(error) {
+          console.error("Failed to send email:", error);
+          document.getElementById("form-status").textContent = "Failed to send message. Please try again.";
+          document.getElementById("form-status").style.color = "red";
+        });
+    });
+  </script>-->
+
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="footer-content">
+      <!-- Social Media Links -->
+      <div class="footer-section social">
+        <h3>Follow Me</h3>
+        <div class="social-links">
+          <a href="https://m.me/mohamud.lafole" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/252907944294" target="_blank"><i class="fab fa-fa fa-whatsapp"></i></a>
+          <a href="https://linkedin.com/in/mohamud-mohamed-29174a306" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Mohamud49/My-Portfolio" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-section contact-info">
+        <h3>Contact Info</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Gaalkacyo, Puntland, Somalia</li>
+          <li><i class="fas fa-phone"></i> +252 907 944294</li>
+          <li><i class="fas fa-envelope"></i> engmohamud7@gmail.com</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter Subscription -->
+      <div class="footer-section newsletter">
+        <h3>Subscribe to My Newsletter</h3>
+        <form name="submit-to-google-sheet1" class="newsletter-form" id="newsletter-form">
+          <input type="email" name="Email" id="newsletter-email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <span id="msg"></span>
+        <!-- <p id="subscription-status" class="subscription-status"></p>-->
+      </div>
+    </div>
+
+    <!-- Copyright Notice -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 Mohamud Mohamed. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZ9DHFaKCU_WdlR067F5vlT__5qNM0aMea6PzVYD-_LP0FkjTRbifHjbAiWMJCSx75Vg/exec'
+    const form = document.forms['submit-to-google-sheet1']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Thank You For Subscribing!"
+          setTimeout(function(){msg.innerHTML = ""},5000)
+
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+
+  <!--LOADER-->
+  <div class="loader"></div>
+
+  <!-- Overlay for mobile menu -->
+  <div class="overlay" id="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
