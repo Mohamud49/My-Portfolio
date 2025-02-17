@@ -176,29 +176,29 @@ document.getElementById("newsletter-form").addEventListener("submit", function(e
   event.preventDefault(); // Prevent default form submission
 
   // Show the popup modal
-  const popupModal = document.getElementById("popup-modal");
-  popupModal.style.display = "flex";
+  const popupModals = document.getElementById("popup-modals");
+  popupModals.style.display = "flex";
 
   // Clear the form
   document.getElementById("newsletter-form").reset();
 });
 
 // Close the popup modal
-document.getElementById("close-button").addEventListener("click", function() {
-  const popupModal = document.getElementById("popup-modal");
-  popupModal.style.display = "none";
+document.getElementById("close-buttons").addEventListener("click", function() {
+  const popupModals = document.getElementById("popup-modals");
+  popupModals.style.display = "none";
 });
 
 // Close the popup modal when clicking the OK button
-document.getElementById("ok-button").addEventListener("click", function() {
-  const popupModal = document.getElementById("popup-modal");
-  popupModal.style.display = "none";
+document.getElementById("ok-buttons").addEventListener("click", function() {
+  const popupModals = document.getElementById("popup-modals");
+  popupModals.style.display = "none";
 });
 
 // Close the popup modal when clicking outside the modal
 window.addEventListener("click", function(event) {
-  const popupModal = document.getElementById("popup-modal");
-  if (event.target === popupModal) {
-    popupModal.style.display = "none";
+  const popupModals = document.getElementById("popup-modals");
+  if (event.target === popupModals) {
+    popupModals.style.display = "none";
   }
 });
