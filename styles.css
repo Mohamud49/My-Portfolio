@@ -308,6 +308,7 @@ body.dark-mode .dark-mode-toggle .mode-icon {
 }
 
 .hero-title {
+  color: #2c3e50;
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -446,6 +447,10 @@ p {
   animation: fadeInLeft 1.5s ease-in-out;
 }
 
+.about-title h2{
+    color: #2c3e50;
+}
+
 #read-more, #read-less {
   color: #3498db;
   cursor: pointer;
@@ -551,7 +556,7 @@ body.dark-mode .about-content {
   color: #e0e0e0;
 }
 
-body.dark-mode .about-content h1 {
+body.dark-mode .about-content h1 h2 {
   color: #e0e0e0;
 }
 
