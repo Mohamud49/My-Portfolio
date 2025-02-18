@@ -77,6 +77,7 @@ const readMore = document.getElementById('read-more');
 const readLess = document.getElementById('read-less');
 const moreText = document.getElementById('more-text');
 
+
 readMore.addEventListener('click', () => {
   moreText.classList.add('visible');
   readMore.classList.add('hidden');
@@ -93,12 +94,18 @@ const readMore = document.getElementById('read-more');
 const readLess = document.getElementById('read-less');
 const moreText = document.getElementById('more-text');
 const cvDownload = document.getElementById('cv-download');
+const aboutimages = document.getElementById('image2');
+const aboutimagess = document.getElementById('image3');
+const aboutimagesss = document.getElementById('image4');
 
 readMore.addEventListener('click', () => {
   moreText.style.display = 'inline';
   readMore.style.display = 'none';
   readLess.style.display = 'inline';
   cvDownload.style.display = 'inline';
+  aboutimages.style.display = 'block';
+  aboutimagess.style.display = 'block';
+  aboutimagesss.style.display = 'block';
 });
 
 readLess.addEventListener('click', () => {
@@ -106,6 +113,9 @@ readLess.addEventListener('click', () => {
   readMore.style.display = 'inline';
   readLess.style.display = 'none';
   cvDownload.style.display = 'none';
+  aboutimages.style.display = 'none';
+  aboutimagess.style.display = 'none';
+  aboutimagesss.style.display = 'none';
 });
 
 // Animate progress bars when the skills section is in view
