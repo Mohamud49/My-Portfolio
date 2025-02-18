@@ -77,7 +77,6 @@ const readMore = document.getElementById('read-more');
 const readLess = document.getElementById('read-less');
 const moreText = document.getElementById('more-text');
 
-
 readMore.addEventListener('click', () => {
   moreText.classList.add('visible');
   readMore.classList.add('hidden');
@@ -98,6 +97,7 @@ const aboutimages = document.getElementById('image2');
 const aboutimagess = document.getElementById('image3');
 const aboutimagesss = document.getElementById('image4');
 
+
 readMore.addEventListener('click', () => {
   moreText.style.display = 'inline';
   readMore.style.display = 'none';
@@ -112,7 +112,6 @@ readLess.addEventListener('click', () => {
   moreText.style.display = 'none';
   readMore.style.display = 'inline';
   readLess.style.display = 'none';
-  cvDownload.style.display = 'none';
   aboutimages.style.display = 'none';
   aboutimagess.style.display = 'none';
   aboutimagesss.style.display = 'none';
