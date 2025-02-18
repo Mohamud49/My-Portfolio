@@ -117,11 +117,11 @@ body {
   cursor: pointer;
   font-size: 1.5rem;
   transition: transform 0.3s ease;
-  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
 }
 
 .dark-mode-toggle:hover {
   transform: scale(1.1);
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
 }
 
 /* Overlay Styles */
@@ -328,7 +328,7 @@ body.dark-mode .dark-mode-toggle .mode-icon {
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   color: #fff;
 }
 
@@ -417,15 +417,6 @@ body.dark-mode .cta-button:hover {
   max-width: 60%;
 }
 
-.about-image {
-  flex: 1;
-  max-width: 35%;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  animation: fadeInRight 1.5s ease-in-out;
-}
-
 .about-images {
   display: flex;
   flex-direction: column;
@@ -433,12 +424,19 @@ body.dark-mode .cta-button:hover {
 }
 
 .about-image {
-  max-width: 400px;
+  max-width: 350px;
   border-radius: 10px;
   transition: transform 0.3s;
   animation: fadeInLeft 1.5s ease-in-out;
 
-}animation: fadeInLeft 1.5s ease-in-out;
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  animation: fadeInLeft 1.5s ease-in-out;
 }
 
 p {
@@ -536,7 +534,7 @@ p {
     margin-top: 20px;
   }
 
-    .cv-download{
+  .cv-download{
     display: block;
     margin: 10px auto;
   }
@@ -959,10 +957,6 @@ body.dark-mode .service-button:hover {
 .popup-text p {
   font-size: 1.1rem;
   margin-bottom: 20px;
-}
-
-.popup-text p span{
-  color: #61b752;
 }
 
 .ok-button {
