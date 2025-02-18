@@ -959,6 +959,10 @@ body.dark-mode .service-button:hover {
   margin-bottom: 20px;
 }
 
+.popup-text p span{
+    color: #61b752;
+}
+  
 .ok-button {
   padding: 10px 20px;
   font-size: 1rem;
