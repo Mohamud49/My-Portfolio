@@ -413,6 +413,8 @@ body.dark-mode .cta-button:hover {
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
+  transition: transform 0.3s;
+  animation: fadeInLeft 1.5s ease-in-out;
 }
 
 .about-content {
