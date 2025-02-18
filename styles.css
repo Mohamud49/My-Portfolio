@@ -308,7 +308,7 @@ body.dark-mode .dark-mode-toggle .mode-icon {
 }
 
 .hero-title {
-  color: #2c3e50;
+  color: #fff;
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -327,13 +327,14 @@ body.dark-mode .dark-mode-toggle .mode-icon {
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  margin-bottom: 90px;
+  margin-bottom: 0.5%;
   color: #fff;
 }
 
 #changing-text {
+  font-size: 2.2rem;
   display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
@@ -373,6 +374,7 @@ body.dark-mode .dark-mode-toggle .mode-icon {
   color: #3498db;
   background-color: #fff;
   border-radius: 50px;
+  margin-top: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -462,6 +464,8 @@ body.dark-mode .cta-button:hover {
   cursor: pointer;
   font-weight: 600;
   text-decoration: underline;
+  transition: transform 0.3s;
+  animation: fadeInLeft 1.5s ease-in-out;
 }
 
 #read-more, #read-less:hover{
@@ -562,7 +566,10 @@ body.dark-mode .about-content {
   color: #e0e0e0;
 }
 
-body.dark-mode .about-content h1 h2 {
+body.dark-mode .about-content h1 {
+  color: #e0e0e0;
+}
+body.dark-mode .about-content h2 {
   color: #e0e0e0;
 }
 
